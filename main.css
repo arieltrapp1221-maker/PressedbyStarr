@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* css document */
+*{
+    box-sizing: border-box;
+}
+body {
+ background-image: url ("images/background.png"); no-repeat fixed top right
+}
+#container {
+ width: 800px;
+ margin: 0 auto;
+}
