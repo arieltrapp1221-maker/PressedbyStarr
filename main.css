@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
- background: url("background.png") no-repeat fixed top right;
+ background: url("back.png") no-repeat fixed top right;
 }
 #container {
  width: 800px;
