@@ -20,9 +20,9 @@ body {
     margin: 0px 10px 10px 15px;
     padding: 10px 10px 10px 10px;
     border: solid 3px #fff;
-    visibility: hidden;
+     visibility: hidden;
 }
-.right{
+    .right{
     width: 380px;
     height: 200px;
     background-color: rgba(255,255,255,0.5);
@@ -31,7 +31,6 @@ body {
     margin: 0px 0px 10px 0px;
      padding: 10px 10px 10px 10px;
     border: solid 3px #fff;
-    display: none;
 }
 footer{
     clear: both;
@@ -44,4 +43,20 @@ header> h1{
 }
 #container article{
     background-color: rgba(255,255,255,0.5); 
+}
+.right a:link{
+    color: #3F3F2C;
+    text-decoration: none;
+}
+.right a:hover{
+    font-size: 1.2em;
+}
+footer a:link{
+    text-decoration: none;
+}
+.right a: :visited{
+    color: #3F3F2C;
+}
+body {
+    font-family: "Microsoft YaHei",微软雅黑,宋体,Arial, Helvetica, sans-serif;
 }
