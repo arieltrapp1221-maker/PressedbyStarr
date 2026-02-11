@@ -54,7 +54,7 @@ header> h1{
 footer a:link{
     text-decoration: none;
 }
-.right a: :visited{
+.right a :visited{
     color: #3F3F2C;
 }
 body {
