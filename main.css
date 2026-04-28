@@ -8,6 +8,7 @@ body {
 }
 #container {
  width: 800px;
+ height: 400px;
  margin: 0 auto;
  background-color:#ebcd9085 ;
 }
@@ -59,4 +60,8 @@ footer a:link{
 }
 body {
     font-family: "Microsoft YaHei",微软雅黑,宋体,Arial, Helvetica, sans-serif;
+}
+.bottom{
+    text-align: center;
+
 }

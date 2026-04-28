@@ -1,0 +1,58 @@
+/* Flexbox Container */
+.flex-container {
+  display: flex;
+  background-color: #3F3F2C;
+  flex-direction: row;
+}
+.flex-container > div {
+  background-color: rgba(255,255,255,0.5);
+  height: auto;
+  width: auto;
+    margin: 10px;
+  font-size: 30px;
+}
+.container {
+  display: flex;
+  background-color: #3F3F2C;
+  flex-direction: column;
+}
+.container > div {
+  background-color: rgba(255,255,255,0.5);
+  height: auto;
+  width: auto;
+    margin: 10px;
+  font-size: 30px;
+}
+/* Flexbox Item */
+.flex-item {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Common Flexbox Patterns */
+
+/* Center content */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Space between items */
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Column layout */
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
