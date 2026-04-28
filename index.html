@@ -89,8 +89,8 @@ Click me to display Date and Time.</button>
     }
 </style> 
 <form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="name">First name:</label><br>
+  <input type="text" id="name" name="name" value="John"><br>
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname" value="Doe"><br><br>
   <input type="submit" value="Submit">
@@ -105,7 +105,26 @@ Click me to display Date and Time.</button>
   <source src="boom.mp3" type="audio/ogg">
   <source src="boom.mp3" type="audio/mpeg">
 </audio>
-</body>
-<article class="bottom">    
-<footer>Copyright © 2024 PressedbyStarr</footer></article>
+</body><br>
+<button onclick="getLocation()"> Try it</button>
+<p id="demo"></p>    
+<script>
+const x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+<article class="bottom">  
+<footer>Copyright © 2024 PressedbyStarr</footer></article> 
 </div></html>

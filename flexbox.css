@@ -51,8 +51,33 @@
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-    .flex-container {
-        flex-direction: column;
-    }
+@media only screen and (min-width: 768px) {
+/* tablet and desktop*/
+body{     background-color: #3F3F2C;   
 }
+.flex-container {
+    flex-grow: 1;
+    height: 250px;
+    background-color: rgba(225, 225, 225, 0.5);
+    border-radius: 10px;   
+    border: solid 3px #fff;
+}
+.container {
+    flex-grow: 1;
+    height: 250px;
+    background-color: rgba(225, 225, 225, 0.5);
+    border-radius: 10px;   
+    border: solid 3px #fff;
+}
+@media only screen and (max-width: 767px){
+/* mobile */
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+    
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait){
+    /* mobile portrait */
+}}
